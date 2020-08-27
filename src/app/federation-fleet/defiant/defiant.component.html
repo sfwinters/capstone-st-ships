@@ -1,0 +1,16 @@
+<div id="container">
+    <table>
+        <tr *ngFor="let member of defCrew" [id]="member.id">
+            <td>
+                <img [src]="member.photo">
+            </td>
+            <td class="info">
+                Name: {{member.name}}<br>
+                Rank: {{member.rank}}<br>
+                Position: {{member.position}}<br>
+                Race: {{member.race}}<br>
+                About: {{member.bio}}
+            </td>
+        </tr>
+    </table>
+</div>

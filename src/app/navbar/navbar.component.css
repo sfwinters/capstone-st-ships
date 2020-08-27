@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Federation";
+    src: url("../../assets/fonts/Federation.ttf")
+}
+
+@font-face {
+    font-family: "Klingon";
+    src: url("../../assets/fonts/Klingon.ttf")
+};
+
+@font-face {
+    font-family: "Romulan";
+    src: url("../../assets/fonts/Romulan.ttf")
+};
+
+@font-face {
+    font-family: "Cardassian";
+    src: url("../../assets/fonts/Cardassian.ttf")
+};
+
+@font-face {
+    font-family: "Ferengi";
+    src: url("../../assets/fonts/Ferengi.ttf")
+};
+
+@font-face {
+    font-family: "Borg";
+    src: url("../../assets/fonts/Borg.ttf")
+}
+
+#federation {
+    font-family: "Federation";
+    grid-column: 1;
+}
+
+#klingon {
+    font-family: "Klingon";
+    grid-column: 2;
+}
+
+#klingon:hover {
+    font-family: "Federation"
+}
+
+#romulan {
+    font-family: "Romulan";
+    grid-column: 3;
+}
+
+#romulan:hover {
+    font-family: "Federation"
+}
+
+#ferengi {
+    font-family: "Ferengi";
+    grid-column: 4;
+}
+
+#ferengi:hover {
+    font-family: "Federation"
+}
+
+#cardassian {
+    font-family: "Cardassian";
+    grid-column: 5;
+}
+
+#cardassian:hover {
+    font-family: "Federation"
+}
+
+#borg {
+    font-family: "Borg";
+    grid-column: 6;
+    font-size: 2em;
+}
+
+#borg:hover {
+    font-family: "Federation";
+    font-size: medium;
+}
+
+#home {
+    font-family: "Federation";
+    grid-column: 7;
+}
+
+.container {
+    display: grid;
+    background-color: #333;
+    width: 100%;
+    vertical-align: middle;
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 10px;
+    padding-bottom: 15px;
+}
+
+.main a{
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+li a:hover {
+    background-color: #111;
+    font-family: "Federation";
+    font-size: medium;
+    vertical-align: middle;
+    
+  }
