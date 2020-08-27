@@ -1,6 +1,10 @@
 {
   "name": "star-trek",
   "version": "0.0.0",
+  "engines": {
+    "node": "14.3.0",
+    "npm": "3.10.10"
+  },
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
@@ -51,10 +55,6 @@
     "ts-node": "^8.3.0",
     "tslint": "~6.1.0",
     "typescript": "^3.9.7"
-  },
-  "engines": {
-    "node": "14.3.0",
-    "npm": "3.10.10"
   },
   "description": "Project Overview This will be a database of Star Trek ships, their crews, and other details.",
   "main": "karma.conf.js",
