@@ -54,6 +54,11 @@
 };
 
 @font-face {
+    font-family: "KlingonDagger";
+    src: url("./KlingonDagger.ttf")
+};
+
+@font-face {
     font-family: "Romulan";
     src: url("./Romulan.ttf")
 };
