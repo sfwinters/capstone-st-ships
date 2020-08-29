@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {},
       "root": "",
-      "sourceRoot": "capstone-st-ships/src",
+      "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
