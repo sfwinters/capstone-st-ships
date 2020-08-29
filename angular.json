@@ -20,11 +20,11 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "capstone-st-ships/src/favicon.ico",
+              "capstone-st-ships/src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "capstone-st-ships/src/styles.css"
             ],
             "scripts": []
           },
