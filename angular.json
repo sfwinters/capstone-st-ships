@@ -7,24 +7,24 @@
       "projectType": "application",
       "schematics": {},
       "root": "",
-      "sourceRoot": "src/capstone-st-ships",
+      "sourceRoot": "capstone-st-ships/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/star-trek",
+            "outputPath": "dist/capstone-st-ships",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              "capstone-st-ships/src/favicon.ico",
-              "capstone-st-ships/src/assets"
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "capstone-st-ships/src/styles.css"
+              "src/styles.css"
             ],
             "scripts": []
           },
