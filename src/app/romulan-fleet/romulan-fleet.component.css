@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "TOS_Title";
-    src: url('/assets/fonts/Star\ Series.ttf')
+    font-family: "Nova_Light_Ultra";
+    src: url('/assets/fonts/Nova_Light_Ultra.ttf')
 }
 
 #container {
@@ -16,7 +16,7 @@ table {
 }
 
 .info {
-  font-family: "TOS_Title";
-  font-size: 18px;
+  font-family: "Nova_Light_Ultra";
+  font-size: 26px;
   width: 451px;
 }
