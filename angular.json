@@ -20,12 +20,11 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              ["favicon.ico"],
-              ["assets"]
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "src/assets/fonts/fonts-startrek.css"
+              "src/styles.css"
             ],
             "scripts": []
           },
